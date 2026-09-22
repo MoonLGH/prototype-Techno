@@ -1,0 +1,58 @@
+{
+  "laundries": [
+    {
+      "name": "Smart Laundry Unnes",
+      "type": "kiloan",
+      "category": "layanan_binatu",
+      "address": "Jl. Kalimasada No.1a, Sekaran, Gunungpati",
+      "lat": -7.0468,
+      "lon": 110.39498,
+      "rating": 4.9,
+      "review_count": 120,
+      "hours": "Buka 24 jam",
+      "open_24h": 1,
+      "phone": "0877-4611-1127",
+      "price_min": 5000,
+      "price_max": 12000,
+      "services": ["kiloan", "express", "setrika", "antar-jemput"],
+      "promoted": 1,
+      "source": "Google Maps"
+    },
+    {
+      "name": "MY WASH LAUNDRY SELF SERVICE UNNES",
+      "type": "self_service",
+      "category": "binatu",
+      "address": "Jl. Taman Siswa No.4, Sekaran, Gunungpati",
+      "lat": -7.05075,
+      "lon": 110.39526,
+      "rating": 4.8,
+      "review_count": 95,
+      "hours": "06.00-22.00",
+      "open_24h": 0,
+      "phone": "0878-8407-7947",
+      "price_min": 4000,
+      "price_max": 10000,
+      "services": ["self-service", "koin", "kiloan"],
+      "promoted": 0,
+      "source": "Google Maps"
+    },
+    {
+      "name": "SELF LAUNDRY MBAH DJENGGOT 3",
+      "type": "self_service",
+      "category": "binatu_cucian_kering",
+      "address": "Jl. Kolonel HR Hadijanto RT.01/RW.04, Gunungpati",
+      "lat": -7.05005,
+      "lon": 110.38935,
+      "rating": 5.0,
+      "review_count": 60,
+      "hours": "Buka 24 jam",
+      "open_24h": 1,
+      "phone": null,
+      "price_min": 5000,
+      "price_max": 15000,
+      "services": ["self-service", "koin", "dry-clean"],
+      "promoted": 0,
+      "source": "Google Maps"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laundry Yuk! — Laundry Sekitar UNNES Sekaran Gunungpati</title>
+<meta name="description" content="Platform agregator laundry sekitar kampus UNNES Sekaran Gunungpati. Bandingkan harga, jarak, dan ulasan dalam satu tempat.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧺</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./vendor/leaflet/leaflet.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#/">
+      <span class="brand-bubble">🧺</span>
+      <span class="brand-name">Laundry<span class="brand-acc">Yuk!</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#/" data-nav>Home</a>
+      <a href="#/peta" data-nav>Peta</a>
+      <a href="#/daftar-mitra" data-nav>Mitra</a>
+      <a href="#/lacak" data-nav>Lacak Pesanan</a>
+      <a href="#/dashboard" data-nav data-role="owner" hidden>Dashboard Mitra</a>
+    </nav>
+    <div class="nav-auth" id="nav-auth"></div>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="foot-inner">
+    <div>
+      <div class="brand" style="margin-bottom:.6rem">
+        <span class="brand-bubble">🧺</span>
+        <span class="brand-name">Laundry<span class="brand-acc">Yuk!</span></span>
+      </div>
+      <p>Platform agregator laundry berbasis pemetaan untuk mahasiswa &amp; UMKM
+      di kawasan kampus UNNES, Sekaran, Gunungpati, Kota Semarang.</p>
+      <p class="foot-note">Prototype Technopreneurship — Kelompok 2</p>
+    </div>
+    <div>
+      <h4>Navigasi</h4>
+      <a href="#/">Beranda</a>
+      <a href="#/peta">Peta Laundry</a>
+      <a href="#/daftar-mitra">Daftar Mitra</a>
+      <a href="#/lacak">Lacak Pesanan</a>
+    </div>
+    <div>
+      <h4>Sumber Data</h4>
+      <p>Data laundry merupakan hasil riset lapangan dari
+      <b>Google Maps</b> &amp; <b>OpenStreetMap</b> kawasan UNNES Sekaran (September).</p>
+      <p class="foot-note">Demo akun: owner@laundryyuk.id · mahasiswa@unnes.ac.id · pass: laundry123</p>
+    </div>
+  </div>
+</footer>
+
+<div id="toast-wrap"></div>
+<script src="./vendor/leaflet/leaflet.js"></script>
+<script src="./data.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>

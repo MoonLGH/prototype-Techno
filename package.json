@@ -1,0 +1,33 @@
+{
+  "name": "prototype-techno",
+  "version": "1.0.0",
+  "description": "Laundry Yuk! - Platform agregator laundry sekitar kampus UNNES Sekaran Gunungpati",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node db/seed.js",
+    "reset": "node db/seed.js --force",
+    "verify": "node verify.js"
+  },
+  "keywords": [
+    "laundry",
+    "unnes",
+    "technopreneurship",
+    "sqlite"
+  ],
+  "author": "Kelompok 2 Technopreneurship",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^12.4.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^18.0.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "laundries": [
+    {
+      "name": "Nyuci Laundry Self Service UNNES",
+      "type": "self_service",
+      "category": "binatu",
+      "address": "Jl. Taman Siswa No.35, Sekaran, Gunungpati",
+      "lat": -7.04556,
+      "lon": 110.39285,
+      "rating": 4.6,
+      "review_count": 54,
+      "hours": "07.00-22.00",
+      "open_24h": 0,
+      "phone": "0882-0074-39287",
+      "price_min": 4000,
+      "price_max": 9000,
+      "services": ["self-service", "koin", "kiloan"],
+      "promoted": 0,
+      "source": "Google Maps"
+    },
+    {
+      "name": "Zahra Laundry Kalimasada",
+      "type": "kiloan",
+      "category": "layanan_binatu",
+      "address": "Jl. Kalimasada No.7, Sekaran, Gunungpati",
+      "lat": -7.04612,
+      "lon": 110.39528,
+      "rating": 4.7,
+      "review_count": 42,
+      "hours": "09.00-21.00",
+      "open_24h": 0,
+      "phone": "+6281XXXX5584",
+      "price_min": 5000,
+      "price_max": 11000,
+      "services": ["kiloan", "satuan", "setrika"],
+      "promoted": 0,
+      "source": "OpenStreetMap"
+    },
+    {
+      "name": "Dewi Laundry",
+      "type": "premium",
+      "category": "dry_cleaning",
+      "address": "Kawasan Gunungpati, Semarang",
+      "lat": -7.0331,
+      "lon": 110.41429,
+      "rating": 4.5,
+      "review_count": 31,
+      "hours": "08.00-20.00",
+      "open_24h": 0,
+      "phone": null,
+      "price_min": 7000,
+      "price_max": 25000,
+      "services": ["satuan", "dry-clean", "cuci-sepatu"],
+      "promoted": 0,
+      "source": "OpenStreetMap"
+    }
+  ]
+}

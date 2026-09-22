@@ -1,0 +1,58 @@
+{
+  "laundries": [
+    {
+      "name": "Arkan Laundry",
+      "type": "kiloan",
+      "category": "layanan_binatu",
+      "address": "Jl. Pete Sel. No.35, Sekaran, Gunungpati",
+      "lat": -7.05837,
+      "lon": 110.40132,
+      "rating": 4.9,
+      "review_count": 78,
+      "hours": "Buka 24 jam",
+      "open_24h": 1,
+      "phone": "0895-6211-03953",
+      "price_min": 5000,
+      "price_max": 11000,
+      "services": ["kiloan", "express", "setrika"],
+      "promoted": 0,
+      "source": "Google Maps"
+    },
+    {
+      "name": "Albarokah Laundry 2 (UNNES)",
+      "type": "kiloan",
+      "category": "layanan_binatu",
+      "address": "Gg. Cemp. Sari RT.22/RW.02, Sekaran, Gunungpati",
+      "lat": -7.05353,
+      "lon": 110.39611,
+      "rating": 4.9,
+      "review_count": 110,
+      "hours": "Buka 24 jam",
+      "open_24h": 1,
+      "phone": "0858-1988-8955",
+      "price_min": 4500,
+      "price_max": 10000,
+      "services": ["kiloan", "satuan", "setrika", "antar-jemput"],
+      "promoted": 1,
+      "source": "Google Maps"
+    },
+    {
+      "name": "Laundry Room UNNES",
+      "type": "kiloan",
+      "category": "layanan_binatu",
+      "address": "Jl. Pete Raya No.04 RT.05/RW.01, Sekaran, Gunungpati",
+      "lat": -7.05689,
+      "lon": 110.39810,
+      "rating": 4.9,
+      "review_count": 88,
+      "hours": "08.00-21.00",
+      "open_24h": 0,
+      "phone": "0857-4135-2710",
+      "price_min": 6000,
+      "price_max": 13000,
+      "services": ["kiloan", "satuan", "setrika"],
+      "promoted": 0,
+      "source": "Google Maps"
+    }
+  ]
+}
